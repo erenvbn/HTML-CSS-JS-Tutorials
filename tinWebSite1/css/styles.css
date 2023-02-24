@@ -1,0 +1,218 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* HEADING COLORS ___________________________________________________________________________________________________________ */
+h1, h2, .h2-black, h3, h4, h5, h6, .large-heading, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.large-heading{
+  font-size: 3.5rem;
+  padding-top: 3rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.h2-black{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.h-price {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 0% 15%;
+  height: 55rem;
+}
+
+
+/* SECTIONS ___________________________________________________________________________________________________________ */
+
+.colored-section{
+  background-color: #f36853;
+  color: white;
+
+}
+
+.white-section{
+  background-color: white;
+  color: black;
+}
+
+/* COLUMNS___________________________________________________________________________________________________________ */
+
+.col-lg-6{
+  text-align: left;
+}
+
+
+/* NAVIGATION BAR___________________________________________________________________________________________________________ */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+
+/* DOWNLOAD BUTTONS___________________________________________________________________________________________________________ */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE___________________________________________________________________________________________________________ */
+
+.title-image1 {
+  width: 45%;
+  transform: rotate(20deg);
+  position: relative;
+  top: 15%;
+  left: -20%;
+  z-index: 2;
+}
+
+.title-image2 {
+  width: 85%;
+  transform: rotate(-5deg);
+  position: relative;
+  top: -40%;
+  left: 30%;
+  z-index: 1;
+}
+
+/* FEATURES___________________________________________________________________________________________________________ */
+
+#features{
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  background-color: white;
+  position: relative;
+  z-index: 3;
+
+}
+
+.icon-feature {
+  padding-bottom: 3rem;
+  font-size: 4rem;
+  filter: opacity(0.3);
+}
+
+.icon-feature:hover {
+  filter: invert(36%) sepia(76%) saturate(2379%) hue-rotate(326deg) brightness(101%) contrast(101%) opacity(1);
+  transform: scale(1.3);
+}
+
+.column-feature {
+  padding-top: 7rem;
+  line-height: 1.5rem;
+}
+
+
+/* TESTIMONIALS ___________________________________________________________________________________________________________ */
+
+#testimonials {
+  font-size: 1.25rem;
+  padding-top: 10rem;
+  line-height: 1.5rem;
+  padding-bottom: 10rem;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 800;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 10%;
+  margin: auto;
+}
+
+
+/* PRICING ___________________________________________________________________________________________________________ */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-columns{
+  padding: 3% 2%;
+}
+
+
+/* FOOTER___________________________________________________________________________________________________________ */
+
+#cta{
+  padding: 5rem 3rem 2rem 3rem;
+}
+
+
+#footer{
+  padding: 0.5rem 3rem 3rem 3rem;
+}
+
+
+/* MEDIA QUERIES___________________________________________________________________________________________________________ */
+@media (max-width: 1000px){
+
+/* MQ HEADINGS___________________________________________________________________________________________________________ */
+
+  h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding-top: 2rem;
+  }
+
+/* MQ TITLE IMAGES___________________________________________________________________________________________________________ */
+
+  .title-image1 {
+    transform: rotate(0deg);
+    position: static;
+    top: 15%;
+    left: -20%;
+  }
+  
+  .title-image2 {
+    transform: rotate(0deg);
+    position: static;
+    top: -40%;
+    left: 30%;
+    display: none;
+  }
+}
